@@ -1,0 +1,62 @@
+header{
+   width:100%;
+   background-color: #89CFF0;
+   font-family: 'Brush Script MT', cursive;
+   text-align:center;
+   border-radius: 8px;
+   border: 10px solid #77C3EC;
+   color: linen;
+   box-shadow: 0 5px #666;
+}
+#title {
+   font-size:50px;
+   font-weight: bold;
+}
+body{
+   background-color:#B8E2F2;
+   text-align: center;
+   color:linen;
+   width:100%;
+   font-family: 'Brush Script MT', cursive;
+   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+   padding-bottom:100px;
+   
+}
+table, tr,td{
+   border: 2px solid #77c3ec;
+   width:300;
+}
+tr:hover{
+   background-color:#89CFF0;
+}   
+#picture{
+   border: 10px solid #77C3EC;
+   border-radius:10px;
+   height: 300px;
+   box-shadow: 0 5px #666;
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #9dd9f3;
+  border: 10px solid #77C3EC;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: 'Brush Script MT', cursive;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+button:hover {
+   background-color: #89cff0}
+button:active {
+  background-color: #89cff0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+   text-align:center;
+}
+#button2, #button3, #button4, #button5, #button6{
+   display:none;
+}
